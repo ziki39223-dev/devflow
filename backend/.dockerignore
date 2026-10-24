@@ -1,0 +1,13 @@
+# 避免 COPY . . 把宿主环境灌进镜像
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.log
+.env
+.env.local
+.pytest_cache/
+.mypy_cache/
+tests/

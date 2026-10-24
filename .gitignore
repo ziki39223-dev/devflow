@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.venv/
+venv/
+.venv/
+*.egg-info/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs & caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.eslintcache
+.next/cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode
